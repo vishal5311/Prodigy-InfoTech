@@ -1,0 +1,23 @@
+.tic-tac-toe {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
